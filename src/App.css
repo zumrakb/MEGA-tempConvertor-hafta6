@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #444444;
+}
+
+h2 {
+  font-size: 30px;
+  color: #3498db;
+}
+
+button {
+  height: 50px;
+  margin: 10px;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #3498db;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+  padding: 13px 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  font-size: 15px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #3498db;
+  border-color: azure;
+}
+
+input {
+  width: 500px;
+  min-height: 30px;
+  border: 2px solid #a5d7f9;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px azure;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+  font-size: 15px;
+}
+
+input:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #3498db;
+}
+
+.tempConvertorPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+}
+
+.enterCelsius {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
